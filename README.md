@@ -41,10 +41,9 @@ refer to the column `actual_explanation` in the file: `./results/cardiomegaly/te
 
 ## Finetune for Stanford-CXR
 
-* Go the `./scripts/scripts_stanford_cxr` folder and get the training scripts. For all the diseases in for **
-  Stanford-CXR**, one script is included in the respective folder with proper instructions to run **1) Blackbox 2)
+* Go the `./scripts/scripts_stanford_cxr` folder and get the training scripts. For all the diseases in for **Stanford-CXR**, one script is included in the respective folder with proper instructions to run **1) Blackbox 2)
   projection (t) 3)
-  interpretable model (g) 4) residual (r)**. Fix the number of samples to be used as training data for Stanford-CXR. **
+  interpretable model (g) 4) residual (r)**. Fix the number of samples to be used as training data for Stanford-CXR.
   For example, to run `cardiomegaly` for **Stanford-CXR**, look into the
   file `./scripts/scripts_stanford_cxr/cardiomegaly/car_15000.sh`
   and `./scripts/scripts_stanford_cxr/cardiomegaly/car_fl_15000.sh` to finetune the model and estimate the computation
